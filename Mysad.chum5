@@ -18,15 +18,15 @@
   <runalt>4/0/0</runalt>
   <sprintalt>2/1/0</sprintalt>
   <initiativedice>1</initiativedice>
-  <prioritymetatype>D,1</prioritymetatype>
+  <prioritymetatype>C,2</prioritymetatype>
   <priorityattributes>B,3</priorityattributes>
   <priorityspecial>B,3</priorityspecial>
   <priorityskills>C,2</priorityskills>
-  <priorityresources>D,1</priorityresources>
+  <priorityresources>E,0</priorityresources>
   <prioritytalent>Mystic Adept</prioritytalent>
   <priorityskills>
-    <priorityskill>Alchemy</priorityskill>
     <priorityskill>Counterspelling</priorityskill>
+    <priorityskill>Spellcasting</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
   <name />
@@ -47,9 +47,9 @@
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>15</karma>
-  <special>0</special>
-  <totalspecial>0</totalspecial>
+  <karma>-9</karma>
+  <special>3</special>
+  <totalspecial>3</totalspecial>
   <totalattributes>20</totalattributes>
   <contactpoints>24</contactpoints>
   <contactpointsused>7</contactpointsused>
@@ -66,8 +66,8 @@
   <basewildreputation>0</basewildreputation>
   <created>False</created>
   <maxavail>12</maxavail>
-  <nuyen>50000.0</nuyen>
-  <startingnuyen>50000</startingnuyen>
+  <nuyen>300.00</nuyen>
+  <startingnuyen>6000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>25</buildkarma>
   <buildmethod>SumtoTen</buildmethod>
@@ -81,7 +81,7 @@
     <grade>Deltaware</grade>
     <grade>Gammaware</grade>
   </bannedwaregrades>
-  <nuyenbp>0</nuyenbp>
+  <nuyenbp>4</nuyenbp>
   <nuyenmaxbp>10</nuyenmaxbp>
   <adept>True</adept>
   <magician>True</magician>
@@ -120,7 +120,7 @@
       <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -177,20 +177,20 @@
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
-      <base>0</base>
+      <base>1</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>1</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
       <metatypemin>4</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
-      <base>0</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -242,7 +242,7 @@
   <groupname />
   <groupnotes />
   <totaless>6.0</totaless>
-  <magsplitadept>2</magsplitadept>
+  <magsplitadept>6</magsplitadept>
   <magsplitmagician>0</magsplitmagician>
   <tradition>
     <sourceid>5d98ea69-29b1-4fb4-b9f3-56396d1dce16</sourceid>
@@ -389,7 +389,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>3</base>
         <notes />
         <name>Assensing</name>
         <buywithkarma>False</buywithkarma>
@@ -543,10 +543,18 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>6</base>
         <notes />
         <name>Con</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>96aa2453-b17a-4d53-a085-2dfe6da27e8e</guid>
+            <name>Fast Talk</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>d24256a1-9dfb-4398-aeb8-d054bb6c4b70</guid>
@@ -683,7 +691,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>3</base>
         <notes />
         <name>Etiquette</name>
         <buywithkarma>False</buywithkarma>
@@ -823,7 +831,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>6</base>
         <notes />
         <name>Impersonation</name>
         <buywithkarma>False</buywithkarma>
@@ -879,7 +887,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <name>Leadership</name>
         <buywithkarma>False</buywithkarma>
@@ -963,7 +971,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>3</base>
         <notes />
         <name>Negotiation</name>
         <buywithkarma>False</buywithkarma>
@@ -991,7 +999,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <name>Perception</name>
         <buywithkarma>False</buywithkarma>
@@ -1005,7 +1013,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <name>Performance</name>
         <buywithkarma>False</buywithkarma>
@@ -1159,7 +1167,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>2</base>
         <notes />
         <name>Spellcasting</name>
         <buywithkarma>False</buywithkarma>
@@ -1173,7 +1181,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <name>Summoning</name>
         <buywithkarma>False</buywithkarma>
@@ -1424,7 +1432,169 @@
       <mugshots />
     </contact>
   </contacts>
-  <spells />
+  <spells>
+    <spell>
+      <sourceid>47423962-6b73-4cc3-ad4e-e8d037cf9507</sourceid>
+      <guid>9a1d9c7f-f875-4a98-a48e-d19f8387a192</guid>
+      <name>Stunbolt</name>
+      <descriptors>Direct</descriptors>
+      <category>Combat</category>
+      <type>M</type>
+      <range>LOS</range>
+      <damage>S</damage>
+      <duration>I</duration>
+      <dv>F-3</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>284</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>1d9430e9-3ae9-4c0a-ba60-ee92c245ee08</sourceid>
+      <guid>56974af0-d473-49c0-9a07-c5407b39f278</guid>
+      <name>Improved Invisibility</name>
+      <descriptors>Realistic, Single-Sense</descriptors>
+      <category>Illusion</category>
+      <type>P</type>
+      <range>LOS</range>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-1</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>291</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>9ce1e699-3c30-4184-858b-d5539935ef96</sourceid>
+      <guid>511145d3-460e-481f-824f-3bdb1cd44c08</guid>
+      <name>Fireball</name>
+      <descriptors>Indirect, Elemental, Area</descriptors>
+      <category>Combat</category>
+      <type>P</type>
+      <range>LOS (A)</range>
+      <damage>P</damage>
+      <duration>I</duration>
+      <dv>F-1</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>284</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>7231e696-8839-4ec8-b12e-213b79bb643d</sourceid>
+      <guid>6adadfea-22e9-43b3-a1ef-5b657ce93886</guid>
+      <name>Detect Life</name>
+      <descriptors>Active, Area</descriptors>
+      <category>Detection</category>
+      <type>M</type>
+      <range>T</range>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-3</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>286</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>d97d3ece-e21b-42c7-bfeb-4ca3834587c0</sourceid>
+      <guid>defa0132-be62-4eb7-bc61-7e79104c5600</guid>
+      <name>Control Thoughts</name>
+      <descriptors>Mental</descriptors>
+      <category>Manipulation</category>
+      <type>M</type>
+      <range>LOS</range>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-1</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>293</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>f7354160-896e-40ab-91e6-673af95cf516</sourceid>
+      <guid>635debe2-1fed-4486-b120-4a26c9f41a86</guid>
+      <name>Alter Memory</name>
+      <descriptors>Mental</descriptors>
+      <category>Manipulation</category>
+      <type>M</type>
+      <range>LOS</range>
+      <damage>0</damage>
+      <duration>P</duration>
+      <dv>F+1</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SSP</source>
+      <page>20</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <sourceid>d4e9d465-160f-4148-a755-27b50616f240</sourceid>
+      <guid>a66b0084-d7bc-48ac-a24b-9d0d9792604e</guid>
+      <name>Entertainment</name>
+      <descriptors>Obvious, Multi-Sense, Area</descriptors>
+      <category>Illusion</category>
+      <type>M</type>
+      <range>LOS (A)</range>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-3</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>290</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+  </spells>
   <foci />
   <stackedfoci />
   <powers>
@@ -1461,13 +1631,242 @@
       <enhancements />
       <notes />
     </power>
+    <power>
+      <sourceid>5f1ebcd8-9571-4716-b7fd-ec674306b833</sourceid>
+      <guid>fbe3145e-c566-4c0f-8dd3-dc705658a0fc</guid>
+      <name>Authoritative Tone</name>
+      <extra />
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action />
+      <rating>3</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>3</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SG</source>
+      <page>170</page>
+      <bonus />
+      <adeptwayrequires />
+      <enhancements />
+      <notes />
+    </power>
+    <power>
+      <sourceid>deec22db-cf2c-47b6-ac34-95a13bcd0bf8</sourceid>
+      <guid>ed69e947-baef-44d2-96cd-b0cad78e4847</guid>
+      <name>Cool Resolve</name>
+      <extra />
+      <pointsperlevel>1</pointsperlevel>
+      <adeptway>0.5</adeptway>
+      <action />
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SG</source>
+      <page>169</page>
+      <bonus>
+        <specificskill>
+          <name>Con</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Etiquette</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Impersonation</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Instruction</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Intimidation</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Leadership</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Negotiation</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Performance</name>
+          <bonus>Rating</bonus>
+        </specificskill>
+      </bonus>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+            <quality>The Invisible Way</quality>
+            <quality>The Speaker's Way</quality>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <enhancements />
+      <notes />
+    </power>
+    <power>
+      <sourceid>fea9e769-5f2c-4bae-9610-56c0825e145a</sourceid>
+      <guid>639bf648-38fc-4e69-8f86-6e80e3dfc92c</guid>
+      <name>Improved Reflexes</name>
+      <extra />
+      <pointsperlevel>1</pointsperlevel>
+      <adeptway>0</adeptway>
+      <action />
+      <rating>2</rating>
+      <extrapointcost>0.5</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>3</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>310</page>
+      <bonus>
+        <initiativepass precedence="0">Rating</initiativepass>
+        <specificattribute>
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <adeptwayrequires>
+        <!-- Note, this isn't required here because the power cannot be discounted anyway, but in the future, this is how to blacklist a power from Magician's Way -->
+        <magicianswayforbids />
+      </adeptwayrequires>
+      <enhancements />
+      <notes />
+    </power>
   </powers>
   <spirits />
   <complexforms />
   <aiprograms />
   <martialarts />
-  <limitmodifiers />
-  <armors />
+  <limitmodifiers>
+    <limitmodifier>
+      <guid>c6834dc8-4e52-4e5a-98cb-110388530ea0</guid>
+      <name>Mortimer of London: Argentum Coat</name>
+      <limit>Social</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_Visible</condition>
+      <candelete>False</candelete>
+      <notes />
+    </limitmodifier>
+  </limitmodifiers>
+  <armors>
+    <armor>
+      <sourceid>dceda713-a138-4161-8bd2-b909ffed7f85</sourceid>
+      <guid>3b4e4ffd-7090-4b96-89a3-de47cf9387b8</guid>
+      <name>Mortimer of London: Argentum Coat</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>12</armor>
+      <armoroverride>+4</armoroverride>
+      <armorcapacity>14</armorcapacity>
+      <avail>10</avail>
+      <cost>3600</cost>
+      <source>RG</source>
+      <page>58</page>
+      <armorname />
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating>0</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <emcumbrance>True</emcumbrance>
+      <armormods>
+        <armormod>
+          <guid>7f0a4362-0bae-4dbe-8ecd-a29261a7ef30</guid>
+          <sourceid>0d74f2f6-74bf-4c7e-afdf-d44f24c3ac12</sourceid>
+          <name>Custom Fit (Stack)</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <bonus>
+            <selectarmor />
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>False</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra>Mortimer of London: Berwick Suit</extra>
+          <stolen>False</stolen>
+          <notes />
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>32e6b9cf-f284-49d2-88a9-0b0f1eb7259e</guid>
+          <sourceid>6226742c-d950-46af-af1a-fc483e14be5c</sourceid>
+          <name>Concealability</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>False</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes />
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+  </armors>
   <weapons>
     <weapon>
       <sourceid>63dcfdb6-bbd9-4a58-bbf4-cd35f7614fdc</sourceid>
@@ -1515,7 +1914,7 @@
       <parentid>343693e6-2522-416e-b690-6f0812b88512</parentid>
       <allowaccessory>False</allowaccessory>
       <weaponname />
-      <included>False</included>
+      <included>True</included>
       <equipped>True</equipped>
       <requireammo>True</requireammo>
       <accuracy>Physical</accuracy>
@@ -1553,32 +1952,8 @@
   <cyberwares />
   <qualities>
     <quality>
-      <sourceid>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</sourceid>
-      <guid>a2d0bcab-7ea6-47b7-ac64-837a6e290175</guid>
-      <name>Low-Light Vision</name>
-      <extra />
-      <bp>4</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>False</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Metatype</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>66</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <notes />
-    </quality>
-    <quality>
       <sourceid>9d53e1e4-3f31-40cb-bfbe-4b94f5ba757e</sourceid>
-      <guid>9530f8cd-8421-4f75-81a8-c43cb2b3c436</guid>
+      <guid>b01a7aaf-d5a5-4058-96a1-fc1639a230e2</guid>
       <name>Mystic Adept</name>
       <extra />
       <bp>35</bp>
@@ -1607,11 +1982,283 @@
         <unlockskills>Magician</unlockskills>
       </bonus>
       <firstlevelbonus />
+      <notes>MYSTIC ADEPTS
+• Mystic adepts are a combination of magicians and adepts.
+• Mystic adepts never astrally project.
+• Mystic adepts can astrally perceive if they purchase the Astral Perception adept power.
+• Mystic adepts purchase their spells/rituals/preparations in the same way as magicians.
+• Mystic adepts must purchase their Power Points with Karma (5 Karma each at character creation for a full Power Point, with a maximum number of points equal to their Magic attribute rating).
+• Mystic adepts can have any skills from the Enchanting, Sorcery, or Conjuring skill groups.</notes>
+    </quality>
+    <quality>
+      <sourceid>a030d7e2-755b-4f71-b848-ad9772fba242</sourceid>
+      <guid>51c51905-e808-41cf-b7d2-bee426a8cea6</guid>
+      <name>Distinctive Style</name>
+      <extra />
+      <bp>-5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>80</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <notes>DISTINCTIVE STYLE
+BONUS: 5 KARMA
+A character with the Distinctive Style quality has at least one aspect of his appearance, mannerism, or personality that makes him inconveniently memorable. Choices for Distinctive Style include, but are by no means limited to: tattoos that cannot be easily concealed, an accent or atypical manner of speaking, bizarre fashion choices, scars, gang or prison signs, flashy custom augmentations, or non-metahuman modifications like a tail. Note that what’s distinctive in one culture or location may not be in another.
+Whatever Distinctive Style the player selects makes her character easy to remember. Anyone who attempts to identify, trace, or physically locate this character (or gain information about him via legwork) receives a +2 dice pool modifier for relevant tests. If an NPC makes a Memory Test (p. 152) to determine how much they recall about the character, reduce the Difficulty Threshold by 1, to a minimum of 1.
+This quality is physical in nature and does not apply to astral searches. This quality may only be taken once.
+This quality is incompatible with Blandness.</notes>
+    </quality>
+    <quality>
+      <sourceid>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</sourceid>
+      <guid>ac7857de-7cef-47ea-87e5-f419befccb84</guid>
+      <name>Low-Light Vision</name>
+      <extra />
+      <bp>4</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>False</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Metatype</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>66</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
       <notes />
     </quality>
+    <quality>
+      <sourceid>ced3fecf-2277-4b20-b1e0-894162ca9ae2</sourceid>
+      <guid>964a9512-ec62-4ad3-a78c-09dd185d48c2</guid>
+      <name>Mentor Spirit</name>
+      <extra>Dragonslayer</extra>
+      <bp>5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>76</page>
+      <sourcename />
+      <bonus>
+        <selectmentorspirit />
+      </bonus>
+      <firstlevelbonus />
+      <notes>MENTOR SPIRIT
+COST: 5 KARMA
+Everyone needs some help in life, even if it comes from someone relatively filmy and insubstantial. Mentor Spirit means the character follows a patron spirit (see Mentor Spirits, p. 320) that guides him in his practice of magic and provides certain advantages and disadvantages to his natural abilities. A character may change mentor spirits, but he may have only one mentor spirit at a time. To change mentor spirits, the character must first buy off the current mentor spirit as if it were a Negative quality. He can then purchase the quality again to follow a different mentor spirit. This cost represents the toll of divorcing from one mentor spirit and bonding with a new one.
+Each tradition has a different name for a mentor spirit. Hermetic mages prefer the term “mentor spirit,” while shamans use the word “totem” for the spirit that they follow. While the names may vary, the way the mentor works is consistent.
+This quality is only available to characters that possess a Magic attribute rating.</notes>
+    </quality>
   </qualities>
-  <lifestyles />
-  <gears />
+  <lifestyles>
+    <lifestyle>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
+      <guid>64de27ad-427c-4914-ba55-282b31c21b22</guid>
+      <name>Lifestyle</name>
+      <cost>2000</cost>
+      <dice>3</dice>
+      <lp>3</lp>
+      <baselifestyle>Low</baselifestyle>
+      <multiplier>60</multiplier>
+      <months>1</months>
+      <roommates>0</roommates>
+      <percentage>100</percentage>
+      <area>0</area>
+      <comforts>0</comforts>
+      <security>0</security>
+      <basearea>2</basearea>
+      <basecomforts>2</basecomforts>
+      <basesecurity>2</basesecurity>
+      <maxarea>3</maxarea>
+      <maxcomforts>3</maxcomforts>
+      <maxsecurity>3</maxsecurity>
+      <costforearea>0</costforearea>
+      <costforcomforts>0</costforcomforts>
+      <costforsecurity>0</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
+      <source>SR5</source>
+      <page>369</page>
+      <trustfund>False</trustfund>
+      <primarytenant>True</primarytenant>
+      <type>Standard</type>
+      <increment>Month</increment>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
+      <lifestylequalities />
+      <freegrids>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>f480828e-17f0-4468-b9ca-6afabdadd8e4</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Public Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <contributetolimit>True</contributetolimit>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus>
+          </bonus>
+          <notes />
+        </lifestylequality>
+      </freegrids>
+      <notes />
+      <sortorder>0</sortorder>
+    </lifestyle>
+  </lifestyles>
+  <gears>
+    <gear>
+      <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
+      <guid>0272ba5e-b348-4614-80b6-e273160f66e1</guid>
+      <name>Fake SIN</name>
+      <category>ID/Credsticks</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 2500</cost>
+      <extra>Insert Fake Name</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>True</allowrename>
+      <children>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>6891e48d-49ac-4d9c-b31d-9ced4c94fe02</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <extra>Mage License</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus>
+            <selectrestricted />
+          </bonus>
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+  </gears>
   <vehicles />
   <metamagics />
   <arts />
@@ -1623,7 +2270,7 @@
       <unique>enableattribute</unique>
       <target />
       <improvedname>MAG</improvedname>
-      <sourcename>9530f8cd-8421-4f75-81a8-c43cb2b3c436</sourcename>
+      <sourcename>b01a7aaf-d5a5-4058-96a1-fc1639a230e2</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1647,7 +2294,7 @@
       <unique>enabletab</unique>
       <target />
       <improvedname>Magician</improvedname>
-      <sourcename>9530f8cd-8421-4f75-81a8-c43cb2b3c436</sourcename>
+      <sourcename>b01a7aaf-d5a5-4058-96a1-fc1639a230e2</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1671,7 +2318,7 @@
       <unique>enabletab</unique>
       <target />
       <improvedname>Adept</improvedname>
-      <sourcename>9530f8cd-8421-4f75-81a8-c43cb2b3c436</sourcename>
+      <sourcename>b01a7aaf-d5a5-4058-96a1-fc1639a230e2</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1694,7 +2341,7 @@
     <improvement>
       <target />
       <improvedname>Magician</improvedname>
-      <sourcename>9530f8cd-8421-4f75-81a8-c43cb2b3c436</sourcename>
+      <sourcename>b01a7aaf-d5a5-4058-96a1-fc1639a230e2</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1716,7 +2363,266 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>Alchemy</improvedname>
+      <improvedname>c6834dc8-4e52-4e5a-98cb-110388530ea0</improvedname>
+      <sourcename>3b4e4ffd-7090-4b96-89a3-de47cf9387b8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Insert Fake Name</improvedname>
+      <sourcename>0272ba5e-b348-4614-80b6-e273160f66e1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Mage License</improvedname>
+      <sourcename>6891e48d-49ac-4d9c-b31d-9ced4c94fe02</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename>e263949a-7efb-4dcf-81f8-78f7c20c39f8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>e263949a-7efb-4dcf-81f8-78f7c20c39f8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>e263949a-7efb-4dcf-81f8-78f7c20c39f8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>e263949a-7efb-4dcf-81f8-78f7c20c39f8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename>53ad205e-be4e-4588-9ba2-7604b7298f67</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>53ad205e-be4e-4588-9ba2-7604b7298f67</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>53ad205e-be4e-4588-9ba2-7604b7298f67</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>53ad205e-be4e-4588-9ba2-7604b7298f67</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Spellcasting</improvedname>
       <sourcename />
       <min>0</min>
       <max>0</max>
@@ -1728,6 +2634,101 @@
       <condition />
       <improvementttype>SkillBase</improvementttype>
       <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename>d39be9dc-f139-455e-a1f9-cec742e344c8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>d39be9dc-f139-455e-a1f9-cec742e344c8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>d39be9dc-f139-455e-a1f9-cec742e344c8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>d39be9dc-f139-455e-a1f9-cec742e344c8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -1760,9 +2761,337 @@
       <order>0</order>
       <notes />
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Con</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Etiquette</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Impersonation</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Instruction</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Intimidation</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Leadership</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Negotiation</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Performance</improvedname>
+      <sourcename>ed69e947-baef-44d2-96cd-b0cad78e4847</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname />
+      <sourcename>639bf648-38fc-4e69-8f86-6e80e3dfc92c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>InitiativeDice</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename>639bf648-38fc-4e69-8f86-6e80e3dfc92c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Con</improvedname>
+      <sourcename>e47bb1bc-85ce-437d-a7cc-9191b7a36b56</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>MentorSpirit</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Combat</improvedname>
+      <sourcename>e47bb1bc-85ce-437d-a7cc-9191b7a36b56</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpellCategory</improvementttype>
+      <improvementsource>MentorSpirit</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>dc7ce567-18c7-4101-b16c-0d4930f3af81</unique>
+      <target />
+      <improvedname>e47bb1bc-85ce-437d-a7cc-9191b7a36b56</improvedname>
+      <sourcename>964a9512-ec62-4ad3-a78c-09dd185d48c2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>MentorSpirit</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
   </improvements>
   <drugs />
-  <mentorspirits />
+  <mentorspirits>
+    <mentorspirit>
+      <sourceid>dc7ce567-18c7-4101-b16c-0d4930f3af81</sourceid>
+      <guid>e47bb1bc-85ce-437d-a7cc-9191b7a36b56</guid>
+      <name>Dragonslayer</name>
+      <mentortype>MentorSpirit</mentortype>
+      <extra>Con</extra>
+      <source>SR5</source>
+      <page>321</page>
+      <advantage>All: +2 dice pool modifier for one social skill of choice.</advantage>
+      <disadvantage>If you break a promise, whether by choice or by accident, you take a –1 dice pool modifier to all actions until you make good on your promise.</disadvantage>
+      <mentormask>False</mentormask>
+      <bonus>
+        <selectskill skillcategory="Social Active">
+          <val>2</val>
+        </selectskill>
+      </bonus>
+      <choice1>
+        <spellcategory>
+          <name>Combat</name>
+          <val>2</val>
+        </spellcategory>
+      </choice1>
+      <choice2 />
+      <notes />
+      <id>dc7ce567-18c7-4101-b16c-0d4930f3af81</id>
+    </mentorspirit>
+  </mentorspirits>
   <expenses />
   <gearlocations />
   <armorlocations />
@@ -1773,6 +3102,9 @@
   <sources>
     <source>SR5</source>
     <source>SG</source>
+    <source>SSP</source>
+    <source>RG</source>
+    <source>RF</source>
   </sources>
   <customdatadirectorynames />
   <calculatedvalues>
